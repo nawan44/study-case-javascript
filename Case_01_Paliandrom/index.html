@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Case#01 - Palindrom</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            background-color: white;
+        }
+
+        table.center {
+            margin: 0 auto;
+            width: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        STUDY CASE #01 - Palindrom
+    </header>
+    <main>
+        <form id="formValue" onsubmit="return false">
+            <div style="margin: 0 auto; width: 350px;height:150px; background-color: yellow; padding: 10px 0">
+                <h4>Input Case</h4>
+                <table class="center">
+                    <thead style="margin: 0 auto;clear: both ; width: 200px;">
+                        <tr>
+                            <th>No</th>
+                            <th>Exampe-Case</th>
+                            <th>Result-Case</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>wow</td>
+                            <td style="color: red;">Paliandrom</td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>now</td>
+                            <td style="color: blue;">Not Paliandrom</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            <br />
+            <div style="margin: 0 auto;clear: both ; width: 250px;">
+                <h3>Insert Words / Sentences :</h3>
+                <input type="text" id="input1" />
+                <p>
+
+                    <button type="submit" onclick="palindrom()">Check Palindrom</button>
+                </p>
+                <h3>Result :</h3>
+                <h2 id="container"> </h2>
+            </div>
+        </form>
+
+    </main>
+    <footer>
+        <div style="padding: 5px 0;">
+            <a href="https://www.github.com/nawan44"><img style="width: 30px; margin : 0 5px;" src="Github.png"></a>
+            <a href="https://www.instagram.com/nawan44"><img style="width: 30px; margin : 0 5px;"
+                    src="instagram.png"></a>
+        </div>
+
+        @nawan44
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
